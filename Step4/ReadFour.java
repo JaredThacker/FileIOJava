@@ -28,9 +28,9 @@ public class ReadFour {
 //                    sum += Integer.parseInt(input);
 //                    System.out.println("Running: " + sum);
                 }
-                System.out.println("Running Total: " + sum);
+                System.out.println("Sum Total: " + sum);
                 fileIn.close();
-            }catch (IOException e) {
+            } catch (IOException e) {
             System.out.println("File not found");
         }
     }
